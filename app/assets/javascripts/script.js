@@ -19,9 +19,9 @@ function mousecursor() {
           o = !1;
       window.onmousemove = function (s) {
           o || (t.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)"), e.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)", n = s.clientY, i = s.clientX
-      }, $("body").on("mouseenter", "a, .cursor-pointer", function () {
+      }, $("body").on("mouseenter", "a, #humburger, .gear, .cursor-pointer", function () {
           e.classList.add("cursor-hover"), t.classList.add("cursor-hover")
-      }), $("body").on("mouseleave", "a, .cursor-pointer", function () {
+      }), $("body").on("mouseleave", "a, #humburger, .gear, .cursor-pointer", function () {
           $(this).is("a") && $(this).closest(".cursor-pointer").length || (e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover"))
       }), e.style.visibility = "visible", t.style.visibility = "visible"
   }
@@ -205,5 +205,10 @@ $(function () {
       $('body').get(0).style.setProperty('--co-2', greenColor2);
     }
   });
-
+  
+  $('.se_iii .box p').animate({ scrollTop: $(document).height() }, 3000,  function() {
+    $(this).animate({ scrollTop: 0 }, 3000);
+ 
+});
+ 
 });

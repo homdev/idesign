@@ -80,3 +80,10 @@ body {
       opacity: 0; }
   
   /* ====================== [ End Cursor Style ] ====================== */
+  .extra { 
+    display: none;
+}
+
+p:hover .extra {
+    display: inline-block;
+}

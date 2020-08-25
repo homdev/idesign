@@ -294,7 +294,13 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow-y: auto;
+  /*animation: moveSlideshow 5s linear infinite;*/
+}
+/*@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
 }
 /* .se_iii .box p:hover {
   -webkit-line-clamp: 10;

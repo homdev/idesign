@@ -128,7 +128,7 @@
     </div>
 
     <!-- SECTION II -->
-    <div class="se_ii theme_section text-md-left text-center" id="about_me" data-parallax="scroll" data-image-src="assets/images/bg/02.png" data-speed=".4">
+    <div class="se_ii theme_section text-md-left text-center" id="about_me" data-parallax="scroll" data-image-src="<%= image_path "bg/02.png"%>" data-speed=".4">
       <div class="container">
         <!-- row -->
         <div class="row">
@@ -139,7 +139,7 @@
               <!-- title -->
               <div class="se_title">
                 <h3 class="mb-1">A Propos de Nous</h3>
-                <h2 class="mb-lg-3 mb-0 text-uppercase">Graphic Designer<br>&amp; UI+UX Designer.</h2>
+                <h2 class="mb-lg-3 mb-0 text-uppercase">Studio Graphisme<br>&amp; Poudre Magique.</h2>
               </div>
               <p class="mb-5">Nous nous spécialisons dans le secteur des petites et moyennes entreprises, en prenant soin de tous les aspects de la conception et de l'image de marque, en plus du marketing numérique et de la promotion. Nous construisons du design graphique sur mesure qui génèrent des résultats fantastiques et ont un impact positif sur votre entreprise.</p>
               <!-- links container -->
@@ -163,7 +163,7 @@
     </div>
 
     <!-- SECTION III & IV & V -->
-    <div data-parallax="scroll" data-image-src="assets/images/bg/03.png">
+    <div data-parallax="scroll" data-image-src="<%= image_path "bg/03.png"%>">
       <!-- SECTION III - SERVICES SECTION -->
       <div class="se_iii py_xl" id="se_iii">
         <div class="container">
@@ -181,7 +181,7 @@
               <!-- box -->
               <div class="box">
                 <!-- icon -->
-                <img src="assets/images/icons/popular.svg" class="icon img-fluid mb-3" alt="icon">
+                <%= image_tag 'icons/popular.svg', class:"icon img-fluid mb-3", alt:"icon" %>
                 <!-- title -->
                 <h5 class="title mb-2">Conception d'emballage</h5>
                 <p class="mb-0">Qu'ils l'admettent ou non, les gens jugent les livres par leur couverture et les produits par leur emballage. Nous pouvons vous aider à faire une bonne première impression et à être mémorable.</p>
@@ -192,7 +192,7 @@
               <!-- box -->
               <div class="box">
                 <!-- icon -->
-                <img src="assets/images/icons/layer.svg" class="icon img-fluid mb-3" alt="icon">
+                <%= image_tag 'icons/layer.svg', class:"icon img-fluid mb-3", alt:"icon" %>
                 <!-- title -->
                 <h5 class="title mb-2">Conception de présentation</h5>
                 <p class="mb-0">Que vous souhaitiez attirer un nouveau client, gérer une formation ou diriger un séminaire, nous rendrons vos informations percutantes et visuellement convaincantes.</p>
@@ -203,7 +203,7 @@
               <!-- box -->
               <div class="box tech-slideshow">
                 <!-- icon -->
-                <img src="assets/images/icons/youtube.svg" class="icon img-fluid mb-3" alt="icon">
+                <%= image_tag 'icons/youtube.svg', class:"icon img-fluid mb-3", alt:"icon" %>
                 <!-- title -->
                 <h5 class="title mb-2">Montage vidéo</h5>
                 <p class="mb-0 mover-1">Nous créons un contenu vidéo unique, conçu par des experts et primé pour certaines des marques, agences et organisations les plus connues au monde.</p>
@@ -226,7 +226,7 @@
               <!-- box -->
               <div class="box">
                 <!-- icon -->
-                <img src="assets/images/icons/slow-motion.svg" class="icon img-fluid mb-3" alt="icon">
+                <%= image_tag 'icons/slow-motion.svg', class:"icon img-fluid mb-3", alt:"icon" %>
                 <!-- title -->
                 <h5 class="title mb-2">Conception d'infographie</h5>
                 <p class="mb-0">Les infographies de haute qualité sont 30 fois plus susceptibles d'être lues que le texte, de sorte que nos concepteurs comprennent comment transmettre des idées et des données de la manière la plus attrayante visuellement.</p>
@@ -237,7 +237,7 @@
               <!-- box -->
               <div class="box">
                 <!-- icon -->
-                <img src="assets/images/icons/3d.svg" class="icon img-fluid mb-3" alt="icon">
+                <%= image_tag 'icons/3d.svg', class:"icon img-fluid mb-3", alt:"icon" %>
                 <!-- title -->
                 <h5 class="title mb-2">Logo design</h5>
                 <p class="mb-0">De Mac Donald à Coca-Cola, le logo est une première impression visuelle pour votre marque. Nous avons perfectionné le processus de création de logos et de marques inoubliables.</p>
@@ -268,7 +268,7 @@
                 <!-- user info -->
                 <div class="user_info d-flex align-items-center">
                   <!-- avatar -->
-                  <img src="assets/images/media/01.jpg" class="item_avatar mr-1 img-fluid" alt="user">
+                  <%= image_tag 'media/01.jpg', class:"item_avatar mr-1 img-fluid", alt:"user" %>
                   <!-- details -->
                   <div class="details">
                     <!-- name & url -->
@@ -285,7 +285,7 @@
                 <!-- user info -->
                 <div class="user_info d-flex align-items-center">
                   <!-- avatar -->
-                  <img src="assets/images/media/02.jpg" class="item_avatar mr-1 img-fluid" alt="user">
+                  <%= image_tag 'media/02.jpg', class:"item_avatar mr-1 img-fluid", alt:"user" %>
                   <!-- details -->
                   <div class="details">
                     <!-- name & url -->
@@ -302,7 +302,7 @@
                 <!-- user info -->
                 <div class="user_info d-flex align-items-center">
                   <!-- avatar -->
-                  <img src="assets/images/media/03.jpg" class="item_avatar mr-1 img-fluid" alt="user">
+                  <%= image_tag 'media/03.jpg', class:"item_avatar mr-1 img-fluid", alt:"user" %>
                   <!-- details -->
                   <div class="details">
                     <!-- name & url -->
@@ -319,7 +319,7 @@
                 <!-- user info -->
                 <div class="user_info d-flex align-items-center">
                   <!-- avatar -->
-                  <img src="assets/images/media/02.jpg" class="item_avatar mr-1 img-fluid" alt="user">
+                  <%= image_tag 'media/02.jpg', class:"item_avatar mr-1 img-fluid", alt:"user" %>
                   <!-- details -->
                   <div class="details">
                     <!-- name & url -->
@@ -429,14 +429,14 @@
     </div>
 
     <!-- SECTION VI -->
-    <div class="se_vi py_xl pb_lg" id="portfolio" data-parallax="scroll" data-image-src="./assets/images/bg/04.png" data-speed=".4">
+    <div class="se_vi py_xl pb_lg" id="portfolio" data-parallax="scroll" data-image-src="<%= image_path "bg/03.png"%>" data-speed=".4">
       <div class="container">
         <!-- text -->
         <div class="text">
           <!-- title -->
           <div class="se_title text-center">
             <h3 class="mb-1">PORTFOLIO</h3>
-            <h2 class="mb-lg-3 mb-0 text-uppercase">I believe in<br>passionate people.</h2>
+            <h2 class="mb-lg-3 mb-0 text-uppercase">sky the limit<br>designer passionné.</h2>
           </div>
         </div>
         <!-- space -->
@@ -448,7 +448,7 @@
             <!-- col -->
             <div class="col-sm-6">
               <!-- box -->
-              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/05.png">
+              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/05.png"%>">
                 <!-- scale button -->
                 <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                   <i class="fa fa-external-link"></i>
@@ -469,7 +469,7 @@
                 <!-- col -->
                 <div class="col-12">
                   <!-- box -->
-                  <div class="gallery_box sm_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/09.png">
+                  <div class="gallery_box sm_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/09.png"%>">
                     <!-- scale button -->
                     <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                       <i class="fa fa-external-link"></i>
@@ -486,7 +486,7 @@
                 <!-- col -->
                 <div class="col-12">
                   <!-- box -->
-                  <div class="gallery_box sm_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/06.png">
+                  <div class="gallery_box sm_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/06.png"%>">
                     <!-- scale button -->
                     <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                       <i class="fa fa-external-link"></i>
@@ -505,7 +505,7 @@
             <!-- col -->
             <div class="col-lg-3 col-sm-6">
               <!-- box -->
-              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/06.png">
+              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/06.png"%>">
                 <!-- scale button -->
                 <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                   <i class="fa fa-external-link"></i>
@@ -522,7 +522,7 @@
             <!-- col -->
             <div class="col-lg-3 col-sm-6">
               <!-- box -->
-              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/07.png">
+              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/07.png"%>">
                 <!-- scale button -->
                 <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                   <i class="fa fa-external-link"></i>
@@ -539,7 +539,7 @@
             <!-- col -->
             <div class="col-lg-3 col-sm-6">
               <!-- box -->
-              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/010.png">
+              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/010.png"%>">
                 <!-- scale button -->
                 <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                   <i class="fa fa-external-link"></i>
@@ -556,7 +556,7 @@
             <!-- col -->
             <div class="col-sm-6">
               <!-- box -->
-              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="assets/images/media/08.png">
+              <div class="gallery_box lg_box mb-2 d-flex align-items-center justify-content-center" data-img-url="<%= image_path "media/08.png"%>">
                 <!-- scale button -->
                 <button type="button" class="scale_btn d-inline-flex align-items-center justify-content-center">
                   <i class="fa fa-external-link"></i>
@@ -574,157 +574,7 @@
         </div>
       </div>
     </div>
-
-    <!-- SECTION VII -->
-    <div class="se_vii py_xl" id="resume">
-      <div class="container">
-        <!-- text -->
-        <div class="text">
-          <!-- title -->
-          <div class="se_title text-center">
-            <h3 class="mb-1">EXPERTISE</h3>
-            <h2 class="mb-lg-3 mb-0 text-uppercase">Special Skils</h2>
-          </div>
-        </div>
-        <!-- space -->
-        <div class="space_lg"></div>
-        <!-- row -->
-        <div class="row">
-          <!-- col -->
-          <div class="col-xl-5 col-lg-6 mb-xl-0 mb-5">
-            <!-- row -->
-            <div class="row">
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6 mb-2">
-                <!-- item -->
-                <div class="item item_1 d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/wordpress.png" class="img-fluid" alt="wordpress">
-                  <p class="mb-0 mt-1">96%</p>
-                </div>
-              </div>
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6 mb-2">
-                <!-- item -->
-                <div class="item item_2 position-relative d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/sketch.png" class="img-fluid" alt="sketch">
-                  <p class="mb-0 mt-1">85%</p>
-                </div>
-              </div>
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6 mb-2">
-                <!-- item -->
-                <div class="item item_3 position-relative d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/java.png" class="img-fluid" alt="java">
-                  <p class="mb-0 mt-1">81%</p>
-                </div>
-              </div>
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6 mb-2">
-                <!-- item -->
-                <div class="item item_4 position-relative d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/illustrator.png" class="img-fluid" alt="illustrator">
-                  <p class="mb-0 mt-1">94%</p>
-                </div>
-              </div>
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6 mb-2">
-                <!-- item -->
-                <div class="item item_5 position-relative d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/html5.png" class="img-fluid" alt="html5">
-                  <p class="mb-0 mt-1">91%</p>
-                </div>
-              </div>
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6 mb-2">
-                <!-- item -->
-                <div class="item item_6 position-relative d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/indesign.png" class="img-fluid" alt="indesign">
-                  <p class="mb-0 mt-1">98%</p>
-                </div>
-              </div>
-              <!-- col -->
-              <div class="col-xl-4 col-lg-6 col-6">
-                <!-- item -->
-                <div class="item item_7 position-relative d-flex align-items-center justify-content-center flex-column">
-                  <img src="assets/images/media/ae.png" class="img-fluid" alt="ae">
-                  <p class="mb-0 mt-1">83%</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- col -->
-          <div class="col-lg-6 ml-auto">
-            <!-- timeline -->
-            <div class="timeline text-lg-left text-center">
-              <!-- row -->
-              <div class="row">
-                <!-- col -->
-                <div class="col-lg-12 col-md-6 mb-4">
-                  <!-- group -->
-                  <div class="group d-xl-flex align-items-start justify-content-start">
-                    <!-- year -->
-                    <h6 class="year d-inline-block mb-xl-0 mb-1 mr-xl-3 mr-0 text-center">2020</h6>
-                    <!-- jobs list -->
-                    <div class="jobs_list">
-                      <!-- job box -->
-                      <div class="job_box">
-                        <h4 class="title mb-0">UI/UX Web Designer</h4>
-                        <p class="location mb-0 text-uppercase">DESIGN</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- group -->
-                  <div class="group d-xl-flex align-items-start justify-content-start">
-                    <!-- year -->
-                    <h6 class="year d-inline-block mb-xl-0 mb-1 mr-xl-3 mr-0 text-center">2019</h6>
-                    <!-- jobs list -->
-                    <div class="jobs_list">
-                      <!-- job box -->
-                      <div class="job_box">
-                        <h4 class="title mb-0">IOS Developer</h4>
-                        <p class="location mb-0 text-uppercase">AMAZON INC</p>
-                      </div>
-                      <!-- job box -->
-                      <div class="job_box">
-                        <h4 class="title mb-0">Senior WP Front-End Developer</h4>
-                        <p class="location mb-0 text-uppercase">DESIGN</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- col -->
-                <div class="col-lg-12 col-md-6">
-                  <!-- group -->
-                  <div class="group d-xl-flex align-items-start justify-content-start">
-                    <!-- year -->
-                    <h6 class="year d-inline-block mb-xl-0 mb-1 mr-xl-3 mr-0 text-center">2018</h6>
-                    <!-- jobs list -->
-                    <div class="jobs_list">
-                      <!-- job box -->
-                      <div class="job_box">
-                        <h4 class="title mb-0">Android Developer</h4>
-                        <p class="location mb-0 text-uppercase">AMAZON INC</p>
-                      </div>
-                      <!-- job box -->
-                      <div class="job_box">
-                        <h4 class="title mb-0">Senior Product Designer</h4>
-                        <p class="location mb-0 text-uppercase">ZARA</p>
-                      </div>
-                      <!-- job box -->
-                      <div class="job_box">
-                        <h4 class="title mb-0">Intership Python Programmer</h4>
-                        <p class="location mb-0 text-uppercase">Microsoft</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <%= render "slider"%>
     <!-- SECTION VIII -->
     <div class="se_viii pb_xl" id="contact">
       <div class="container">
@@ -732,8 +582,8 @@
         <div class="text">
           <!-- title -->
           <div class="se_title text-center">
-            <h3 class="mb-1">HIRE ME</h3>
-            <h2 class="mb-lg-3 mb-0 text-uppercase">What want me to do</h2>
+            <h3 class="mb-1">CHOISISSEZ NOUS !</h3>
+            <h2 class="mb-lg-3 mb-0 text-uppercase">Qu'avez vous besoin</h2>
           </div>
         </div>
         <!-- space -->
@@ -747,7 +597,7 @@
               <!-- label -->
               <label for="rad_1" class="mb-2 d-flex align-items-center justify-content-center">
                 <input type="radio" id="rad_1" name="radio_group" checked>
-                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fab fa-check"></i>App Design</span>
+                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fa fa-check"></i>App Design</span>
               </label>
             </div>
             <!-- col -->
@@ -755,7 +605,7 @@
               <!-- label -->
               <label for="rad_2" class="mb-2 d-flex align-items-center justify-content-center">
                 <input type="radio" id="rad_2" name="radio_group">
-                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fab fa-check"></i>Graphic Design</span>
+                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fa fa-check"></i>Graphic Design</span>
               </label>
             </div>
             <!-- col -->
@@ -763,7 +613,7 @@
               <!-- label -->
               <label for="rad_3" class="mb-2 d-flex align-items-center justify-content-center">
                 <input type="radio" id="rad_3" name="radio_group">
-                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fab fa-check"></i>Mothion Design</span>
+                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fa fa-check"></i>Mothion Design</span>
               </label>
             </div>
             <!-- col -->
@@ -773,7 +623,7 @@
               <!-- label -->
               <label for="rad_4" class="mb-2 d-flex align-items-center justify-content-center">
                 <input type="radio" id="rad_4" name="radio_group">
-                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fab fa-check"></i>UX Design</span>
+                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fa fa-check"></i>UX Design</span>
               </label>
             </div>
             <!-- col -->
@@ -781,7 +631,7 @@
               <!-- label -->
               <label for="rad_5" class="mb-2 d-flex align-items-center justify-content-center">
                 <input type="radio" id="rad_5" name="radio_group">
-                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fab fa-check"></i>Web Design</span>
+                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fa fa-check"></i>Web Design</span>
               </label>
             </div>
             <!-- col -->
@@ -791,7 +641,7 @@
               <!-- label -->
               <label for="rad_6" class="mb-0 d-flex align-items-center justify-content-center">
                 <input type="radio" id="rad_6" name="radio_group">
-                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fab fa-check"></i>Marketing</span>
+                <span class="d-flex align-items-center justify-content-center w-100 h-100"><i class="fa fa-check"></i>Marketing</span>
               </label>
             </div>
           </div>
@@ -801,24 +651,24 @@
           <div class="row">
             <!-- col -->
             <div class="col-12 mb-3 text-center">
-              <h3 class="title text-uppercase">About You</h3>
+              <h3 class="title text-uppercase">Infos Contact</h3>
             </div>
             <!-- col -->
             <div class="col-md-6 mb-2">
               <label for="full_name" class="user_label w-100 mb-0">
-                <input type="text" name="full_name" id="full_name" class="w-100" required autocomplete="off" placeholder="Full Name">
+                <input type="text" name="full_name" id="full_name" class="w-100" required autocomplete="off" placeholder="Nom & Prénom">
               </label>
             </div>
             <!-- col -->
             <div class="col-md-6 mb-2">
               <label for="email_address" class="user_label w-100 mb-0">
-                <input type="text" name="email_address" id="email_address" class="w-100" required autocomplete="off" placeholder="Emaill Address">
+                <input type="text" name="email_address" id="email_address" class="w-100" required autocomplete="off" placeholder="Adresse Email">
               </label>
             </div>
             <!-- col -->
             <div class="col-md-6 mb-2">
               <label for="company_name" class="user_label w-100 mb-0">
-                <input type="text" name="company_name" id="company_name" class="w-100" required autocomplete="off" placeholder="Company Name">
+                <input type="text" name="company_name" id="company_name" class="w-100" required autocomplete="off" placeholder="Nom Entreprise">
               </label>
             </div>
             <!-- col -->
@@ -830,7 +680,7 @@
             <!-- col -->
             <div class="col-12 text-md-left text-center">
               <!-- submit button -->
-              <button type="submit" id="form_submit_btn" class="theme_btn_sh3 text-uppercase mr-md-2 mb-md-0 mb-2">send request</button>
+              <button type="submit" id="form_submit_btn" class="theme_btn_sh3 text-uppercase mr-md-2 mb-md-0 mb-2">Envoyer</button>
               <!-- social list -->
               <ul class="social_list list-unstyled d-inline-flex align-items-center mb-0 align-middle mx-lg-0 mx-auto">
                 <li class="mr-2"><a href="#" target="_blank" class="d-inline-flex align-items-center"><i class="fab fa-behance"></i></a></li>
@@ -875,7 +725,7 @@
         <!-- description -->
         <p class="des mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est vero magni blanditiis, incidunt minima atque amet quas aspernatur reiciendis laudantium quasi omnis. Expedita, animi! Dolor necessitatibus itaque similique fugit nihil.</p>
         <!-- image -->
-        <img src="assets/images/media/06.png" class="img-fluid" alt="gallery Image">
+        <%= image_tag 'media/06.png', class:"img-fluid", alt:"gallery Image" %>
       </div>
       <!-- dismiss button -->
       <button type="button" class="dismiss_btn d-inline-flex align-items-center justify-content-center mt-4" id="dismiss_btn">
